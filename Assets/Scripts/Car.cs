@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Car : MonoBehaviour
 {
@@ -22,5 +23,15 @@ public class Car : MonoBehaviour
     public void Steer(int value)
     {
         steerValue = value;
+    }
+
+
+    private void OnTriggerEnter(Collider other) {
+        // if(other.tag == "Object"){
+        //     SceneManager.LoadScene("EndGame");
+        // }
+        if(other.CompareTag("Object")){
+            SceneManager.LoadScene("EndGame");
+        }
     }
 }
