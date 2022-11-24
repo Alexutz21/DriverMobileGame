@@ -31,7 +31,7 @@ public class Car : MonoBehaviour
         //     SceneManager.LoadScene("EndGame");
         // }
         if(other.CompareTag("Object")){
-            SceneManager.LoadScene("EndGame");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }
