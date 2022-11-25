@@ -3340,7 +3340,7 @@ GameObject:
   - component: {fileID: 318616854}
   m_Layer: 0
   m_Name: GameTrack
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4352,7 +4352,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387245968}
-  m_LocalRotation: {x: 0.14080685, y: -0.44521996, z: 0.071124226, w: 0.8814159}
+  m_LocalRotation: {x: 0.14080684, y: -0.44521996, z: 0.07112422, w: 0.8814159}
   m_LocalPosition: {x: -55.621223, y: 7, z: -39.92441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9343,7 +9343,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.14080685, y: -0.44521996, z: 0.071124226, w: 0.8814159}
+  m_LocalRotation: {x: 0.14080684, y: -0.44521996, z: 0.07112422, w: 0.8814159}
   m_LocalPosition: {x: -55.621223, y: 7, z: -39.92441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

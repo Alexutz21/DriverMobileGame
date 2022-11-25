@@ -30,7 +30,8 @@ public class Car : MonoBehaviour
         // if(other.tag == "Object"){
         //     SceneManager.LoadScene("EndGame");
         // }
-        if(other.CompareTag("Object")){
+        if(other.CompareTag("Object"))
+        {
             SceneManager.LoadScene("MainMenu");
         }
     }
