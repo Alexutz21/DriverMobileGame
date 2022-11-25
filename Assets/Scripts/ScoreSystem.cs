@@ -19,7 +19,8 @@ public class ScoreSystem : MonoBehaviour
 
         scoreText.text = Mathf.FloorToInt(score).ToString();
     }
-       private void OnDestroy()
+    
+    private void OnDestroy()
     {
         int currentHighScore = PlayerPrefs.GetInt(HighScoreKey, 0);
 
